@@ -28,3 +28,6 @@ urlpatterns = [
     path('student/',addStudent),
     
 ]
+
+
+#get,post,put,delete
