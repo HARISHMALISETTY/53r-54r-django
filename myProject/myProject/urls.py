@@ -25,5 +25,6 @@ urlpatterns = [
     path('info/',sampleInfo),
     path('dynamic/',dynamicResponse),
     path('health/',health),
-    path('add/',addStudent)
+    path('student/',addStudent),
+    
 ]
