@@ -71,5 +71,8 @@ def addStudent(request):
         return JsonResponse({"status":"success","message":"student record deleted successfully","deleted data":get_delting_data},status=200)
     return JsonResponse({"error":"use post method"},status=400)
 
-
+def job1(request):
+    return JsonResponse({"message":"u have successfully applied for job1"},status=200) 
+def job2(request):
+    return JsonResponse({"message":"u have successfully applied for job2"},status=200)
 

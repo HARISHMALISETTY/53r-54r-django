@@ -48,7 +48,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'basic.middleware.basicMiddleware'
+    'basic.middleware.basicMiddleware',
+    'basic.middleware.AgeMiddleware',
+    'basic.middleware.MedicalFitMiddleware',
+    'basic.middleware.SscMiddleware'
 
 ]
 
