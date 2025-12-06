@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: aqua;
+            color: red;
+            border: 3px solid orange;
+            /* display: inline-block; */
+            padding: 25px;
+            margin-top: 35px;
+        }
+        a{
+            text-decoration: none;
+            /* background-color: red;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            display: inline-block;
+            margin-top: 30px; */
+
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            background-color: aqua;
+            border: 3px solid;
+            padding: 10px;
+        }
+        li {
+            list-style: none;
+
+        }
+    </style>
+</head>
+<body>
+    {% extends 'welcome.html' %}
+    {% block content%}
+    <h1>welcome to home page</h1> 
+    {% endblock%}   
+</body>
+</html>
